@@ -153,6 +153,12 @@ void sentryLockSound()
   tone(tonePin, 3322,1000/8);
 }
 
+void sentryShootSound()
+{
+  tone(tonePin, 587,1000/16);
+  delay(1000/16);
+}
+
 void sentrySleep()
 {
   digitalWrite(ledPin, LOW);
