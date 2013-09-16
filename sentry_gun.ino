@@ -148,9 +148,11 @@ void sentryLock()
 
 void sentryLockSound()
 {
-  tone(tonePin, 587,1000/16);
-  delay(1000/16);
-  tone(tonePin, 3322,1000/8);
+  tone(tonePin, 46,1000/16);
+  delay(1000/8);
+  tone(tonePin, 46,1000/16);
+  delay(1000/8);
+  tone(tonePin, 46,1000/16);
 }
 
 void sentryShootSound()
